@@ -1,18 +1,19 @@
 package com.example.abc;
 
 import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
 
-@SuppressLint("NewApi") public class MainActivity extends ActionBarActivity {
+@SuppressLint("NewApi") public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        String a = "demo";
     }
 
     @Override
